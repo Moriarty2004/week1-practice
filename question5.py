@@ -16,9 +16,9 @@ else:
     bonus_pct = 5
     bonus, total_salary = calculate_salary(basic)
 
-print("\n--- SALARY DETAILS ---")
+print("\nSALARY DETAILS")
 print("Employee Name:", name)
-print("Basic Salary: ₹", basic)
+print("Basic Salary: ", basic)
 print("Bonus Percentage:", bonus_pct, "%")
-print("Bonus Amount: ₹", bonus)
-print("Final Salary: ₹", total_salary)
+print("Bonus Amount: ", bonus)
+print("Final Salary: ", total_salary)
